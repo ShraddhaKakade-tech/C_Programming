@@ -1,2 +1,2 @@
 # C_Programming
-C Progams practice
+C Programs practice
