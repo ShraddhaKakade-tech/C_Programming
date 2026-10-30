@@ -1,3 +1,13 @@
+//////////////////////////////////////////////
+//
+//  Function Name : MultipleDisplay
+//  Description   : used to display multiples
+//  Input         : Integer
+//  Output        : void
+//  Author        : Shraddha Santosh Kakade
+//  Date          : 30/10/2026
+//
+//////////////////////////////////////////////
 #include<stdio.h>
 #include<stdlib.h>
 
