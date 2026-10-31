@@ -1,3 +1,13 @@
+//////////////////////////////////////////////
+//
+//  Function Name : Factorial
+//  Description   : used to display factorial
+//  Input         : Integer
+//  Output        : Integer
+//  Author        : Shraddha Santosh Kakade
+//  Date          : 30/10/2026
+//
+//////////////////////////////////////////////
 #include<stdio.h>
 #include<stdlib.h>
 
