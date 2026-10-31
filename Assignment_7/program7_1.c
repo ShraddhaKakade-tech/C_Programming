@@ -1,7 +1,7 @@
 //////////////////////////////////////////////
 //
 //  Function Name : Pattern
-//  Description   : used to display pattern
+//  Description   : used to display the pattern according to given integer input
 //  Input         : Integer
 //  Output        : void
 //  Author        : Shraddha Santosh Kakade
