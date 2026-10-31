@@ -1,7 +1,7 @@
 //////////////////////////////////////////////
 //
 //  Function Name : MultipleDisplay
-//  Description   : used to display multiples
+//  Description   : used to display the multiples of given number
 //  Input         : Integer
 //  Output        : void
 //  Author        : Shraddha Santosh Kakade
