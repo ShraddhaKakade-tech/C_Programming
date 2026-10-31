@@ -1,7 +1,7 @@
 //////////////////////////////////////////////
 //
 //  Function Name : Display
-//  Description   : used to display numberline
+//  Description   : used to display the numberline
 //  Input         : Integer
 //  Output        : void
 //  Author        : Shraddha Santosh Kakade
