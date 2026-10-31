@@ -1,7 +1,7 @@
 //////////////////////////////////////////////
 //
 //  Function Name : OddDisplay
-//  Description   : used to display odd numbers
+//  Description   : used to display all odd numbers till the given input
 //  Input         : Integer
 //  Output        : void
 //  Author        : Shraddha Santosh Kakade
