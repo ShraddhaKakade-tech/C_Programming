@@ -1,7 +1,7 @@
 //////////////////////////////////////////////
 //
 //  Function Name : Display
-//  Description   : used to display numbers
+//  Description   : used to display numbers upto the given input integer
 //  Input         : Integer
 //  Output        : void
 //  Author        : Shraddha Santosh Kakade
