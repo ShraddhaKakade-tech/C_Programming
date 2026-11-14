@@ -1,0 +1,35 @@
+#include<stdio.h>
+#include<stdlib.h>
+/*
+    *   *   *   #       11 12 13 14
+    *   *   #   *       21 22 23 24
+    *   #   *   *       31 32 33 34
+    #  *   *   *        41 42 43 44
+
+
+*/
+void Pattern(int iRow, int iCol)
+{
+    int i = 0, j = 0;
+
+    for(i = 1; i <= iRow; i++)
+    {
+        for(j = iCol; j >= 1; j--)
+        { 
+            printf("%d\t",j);
+        }
+        printf("\n");
+    }
+
+}
+int main()
+{
+    int iValue1 = 0, iValue2 = 0;
+
+    printf("Enter number of rows and colmn\n");
+    scanf("%d %d",&iValue1,&iValue2);
+
+    Pattern(iValue1,iValue2);
+
+    return EXIT_SUCCESS;
+}
