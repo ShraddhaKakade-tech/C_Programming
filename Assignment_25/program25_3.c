@@ -6,7 +6,7 @@
 
 typedef int BOOL;
 
-BOOL ChkDigit(char ch)
+BOOL ChckDigit(char ch)
 {
     if(ch >= '0' && ch <= '9')
     {
@@ -26,7 +26,7 @@ int main()
     printf("Enter character\n");
     scanf("%c",&cValue);
 
-    bRet = ChkDigit(cValue);
+    bRet = ChckDigit(cValue);
 
     if(bRet == TRUE)
     {
