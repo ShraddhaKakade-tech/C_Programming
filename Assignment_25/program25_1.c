@@ -6,7 +6,7 @@
 
 typedef int BOOL;
 
-BOOL ChkAlpha(char ch)
+BOOL ChkSmall(char ch)
 {
 
     if((ch >= 'a' && ch <= 'z') || (ch >= 'A' && ch <= 'Z'))
@@ -28,7 +28,7 @@ int main()
     printf("Enter the charcter\n");
     scanf(" %c", &cValue);
 
-    bRet = ChkAlpha(cValue);
+    bRet = ChkSmall(cValue);
 
     if(bRet == TRUE)
     {
