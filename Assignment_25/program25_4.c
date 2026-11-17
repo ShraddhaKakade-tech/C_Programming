@@ -6,7 +6,7 @@
 
 typedef int BOOL;
 
-BOOL ChkSmall(char ch)
+BOOL ChckSmall(char ch)
 {
     if(ch >= 'a' && ch <= 'z')
     {
@@ -27,7 +27,7 @@ int main()
     printf("Enter character\n");
     scanf("%c",&cValue);
 
-    bRet = ChkSmall(cValue);
+    bRet = ChckSmall(cValue);
 
     if(bRet == TRUE)
     {
