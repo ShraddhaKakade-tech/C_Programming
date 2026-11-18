@@ -1,7 +1,7 @@
 #include<stdio.h>
 #include<stdlib.h>
 
-int Difference(char *str)
+int CntDifference(char *str)
 {
     int iCapCnt = 0;
     int iSmallCnt = 0;
@@ -30,7 +30,7 @@ int main()
     printf("Enter string\n");
     scanf("%19[^\n]",arr);
 
-    iRet = Difference(arr);
+    iRet = CntDifference(arr);
 
     printf("%d",iRet);
 
