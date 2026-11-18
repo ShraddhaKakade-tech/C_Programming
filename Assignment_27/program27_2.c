@@ -1,7 +1,7 @@
 #include<stdio.h>
 #include<stdlib.h>
 
-int CountSmall(char *str)
+int CntSmall(char *str)
 {
     int iCnt = 0;
 
@@ -25,7 +25,7 @@ int main()
     printf("Enter string\n");
     scanf("%19[^\n]",arr);
 
-    iRet = CountSmall(arr);
+    iRet = CntSmall(arr);
 
     printf("%d",iRet);
 
