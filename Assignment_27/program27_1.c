@@ -1,7 +1,7 @@
 #include<stdio.h>
 #include<stdlib.h>
 
-int CountCapital(char *str)
+int CountCap(char *str)
 {
     int iCnt = 0;
 
@@ -25,7 +25,7 @@ int main()
     printf("Enter string\n");
     scanf("%19[^\n]",arr);
 
-    iRet = CountCapital(arr);
+    iRet = CountCap(arr);
 
     printf(" %d",iRet);
 
