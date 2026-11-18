@@ -1,7 +1,7 @@
 #include<stdio.h>
 #include<stdlib.h>
 
-void Reverse(char str[])
+void Rev(char str[])
 {
     int i = 0;
     int j = 0;
@@ -31,7 +31,7 @@ int main()
     printf("Enter string\n");
     scanf("%19[^\n]", arr);
 
-    Reverse(arr);
+    Rev(arr);
 
     printf("Reversed string is %s\n", arr);
 
