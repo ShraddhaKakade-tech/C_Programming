@@ -5,7 +5,7 @@
 #define FALSE 0
 typedef int BOOL;
 
-BOOL ChkVowel(char * str)
+BOOL ChkVowels(char * str)
 {
     if(*str == 'a' || 
        *str == 'e' || 
@@ -31,7 +31,7 @@ int main()
     printf("Enter string\n");
     scanf("%19[^\n]",arr);
 
-    bRet = ChkVowel(arr);
+    bRet = ChkVowels(arr);
 
     if(bRet == TRUE)
     {
